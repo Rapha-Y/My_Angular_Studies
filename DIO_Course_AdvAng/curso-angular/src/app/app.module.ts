@@ -22,8 +22,7 @@ import { RodapeComponent } from './shared/components/rodape/rodape.component';
     BrowserAnimationsModule,
     LayoutModule,
     MaterialModule,
-    AppRoutingModule,
-    //FilmesModule
+    AppRoutingModule
   ],
   providers: [{ provide: MAT_DATE_LOCALE, useValue: 'pt' }],
   bootstrap: [AppComponent]
