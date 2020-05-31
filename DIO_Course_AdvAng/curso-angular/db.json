@@ -59,6 +59,46 @@
       "linkIMDb": "https://www.imdb.com/title/tt0983213/?ref_=nv_sr_srsg_0",
       "genero": "Drama",
       "id": 11
+    },
+    {
+      "titulo": "Para a Floresta da Luz dos Vagalumes",
+      "linkFoto": "https://m.media-amazon.com/images/M/MV5BM2FkZjM5ODUtMGM0OC00ZTk2LWFjZDYtNmIzMGRhZWY0MjExXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_SY1000_CR0,0,666,1000_AL_.jpg",
+      "dataLancamento": "2011-09-17T03:00:00.000Z",
+      "descricao": "Hotaru is rescued by a spirit when she gets lost in a forest as a child. The two become friends, despite the spirit revealing that he will disappear if he is ever touched by a human.",
+      "notaIMDb": 7.9,
+      "linkIMDb": "https://www.imdb.com/title/tt2061702/?ref_=nv_sr_srsg_0",
+      "genero": "Drama",
+      "id": 12
+    },
+    {
+      "titulo": "Paprika",
+      "linkFoto": "https://m.media-amazon.com/images/M/MV5BNDI4MGEwZDAtZDg0Yy00MjFhLTg1MjctODdmZTMyNTUyNDI3L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SY1000_CR0,0,671,1000_AL_.jpg",
+      "dataLancamento": "2017-07-27T03:00:00.000Z",
+      "descricao": "When a machine that allows therapists to enter their patients' dreams is stolen, all Hell breaks loose. Only a young female therapist, Paprika, can stop it.",
+      "notaIMDb": 7.7,
+      "linkIMDb": "https://www.imdb.com/title/tt0851578/?ref_=nv_sr_srsg_1",
+      "genero": "Terror",
+      "id": 13
+    },
+    {
+      "titulo": "Tamako rabu sutôrî",
+      "linkFoto": "https://m.media-amazon.com/images/M/MV5BMTYzOGU4OTItNmU4NC00MmViLWEyNzctMmZkMzgxZjM5MjExXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_SY1000_CR0,0,647,1000_AL_.jpg",
+      "dataLancamento": "2014-04-26T03:00:00.000Z",
+      "descricao": "Tamako's life changes when her best childhood friend, Mochizou suddenly confessed his love.",
+      "notaIMDb": 7.1,
+      "linkIMDb": "https://www.imdb.com/title/tt3413018/?ref_=nv_sr_srsg_0",
+      "genero": "Romance",
+      "id": 14
+    },
+    {
+      "titulo": "Perfect Blue",
+      "linkFoto": "https://m.media-amazon.com/images/M/MV5BMmMzOWNhNTYtYmY0My00OGJiLWIzNDUtZWRhNGY0NWFjNzFmXkEyXkFqcGdeQXVyNjUxMDQ0MTg@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+      "dataLancamento": "1999-12-26T02:00:00.000Z",
+      "descricao": "A retired pop singer turned actress' sense of reality is shaken when she is stalked by an obsessed fan and seemingly a ghost of her past.",
+      "notaIMDb": 8,
+      "linkIMDb": "https://www.imdb.com/title/tt0156887/?ref_=nv_sr_srsg_0",
+      "genero": "Terror",
+      "id": 15
     }
   ]
 }
