@@ -11,9 +11,11 @@ import { Filme } from 'src/app/shared/models/filme';
 })
 export class ListagemFilmesComponent implements OnInit {
 
-  filmes: Filme[] = [];
-  pagina = 0;
   readonly qtddPagina = 4;
+  pagina = 0;
+  texto: string;
+  genero: string;
+  filmes: Filme[] = [];
   filtrosListagem: FormGroup;
   generos: Array<String>;
 
@@ -25,8 +27,16 @@ export class ListagemFilmesComponent implements OnInit {
       genero: ['']
     });
 
-    this.generos = ["Ação", "Romance", "Aventura", "Terror", "Ficção Científica", "Comédia", "Drama"];
+    this.filtrosListagem.get('texto').valueChanges.subscribe((val: string) => {
+      this.texto = val;
+      this.resetarConsulta();
+    });
+    this.filtrosListagem.get('genero').valueChanges.subscribe((val: string) => {
+      this.genero = val;
+      this.resetarConsulta();  
+    });
 
+    this.generos = ["Ação", "Romance", "Aventura", "Terror", "Ficção Científica", "Comédia", "Drama"];
     this.listarFilmes();
   }
 
@@ -36,9 +46,15 @@ export class ListagemFilmesComponent implements OnInit {
 
   private listarFilmes(): void {
     this.pagina++;
-    this.filmesService.listar(this.pagina, this.qtddPagina).subscribe(
+    this.filmesService.listar(this.pagina, this.qtddPagina, this.texto, this.genero).subscribe(
       (filmes: Filme[]) => this.filmes.push(...filmes)
     );
+  }
+
+  private resetarConsulta(): void {
+    this.pagina = 0;
+    this.filmes = [];
+    this.listarFilmes();
   }
 
 }
