@@ -12,6 +12,8 @@ import { ConfigParams } from 'src/app/shared/models/config-params';
 })
 export class ListagemFilmesComponent implements OnInit {
   
+  readonly semfoto = "https://www.termoparts.com.br/wp-content/uploads/2017/10/no-image.jpg";
+
   config: ConfigParams = {
     pagina: 0,
     limite: 4,
