@@ -6,6 +6,7 @@ import { ValidarCamposService } from 'src/app/shared/components/campos/validar-c
 import { Filme } from 'src/app/shared/models/filme';
 import { FilmesService } from 'src/app/core/filmes.service';
 import { AlertComponent } from 'src/app/shared/components/alert/alert.component';
+import { Alert } from 'src/app/shared/models/alert';
 
 @Component({
   selector: 'dio-cadastro-filmes',
@@ -61,7 +62,15 @@ export class CadastroFilmesComponent implements OnInit {
   private salvar(filme: Filme): void {
     this.filmesService.salvar(filme).subscribe(
       () => {
-        const dialogRef = this.dialog.open(AlertComponent);
+        const config = {
+          data: {
+            btnSucesso: 'Ir para a listagem',
+            btnCancelar: 'Cadastrar novo filme',
+            corBtnCancelar: 'primary',
+            possuiBtnFechar: true
+          } as Alert
+        };
+        const dialogRef = this.dialog.open(AlertComponent, config);
       },
       () => {
         alert("Erro ao salvar");
