@@ -2,13 +2,63 @@
   "filmes": [
     {
       "titulo": "A Voz do Silêncio",
-      "linkFoto": "https://m.media-amazon.com/images/M/MV5BZGRkOGMxYTUtZTBhYS00NzI3LWEzMDQtOWRhMmNjNjJjMzM4XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY268_CR2,0,182,268_AL_.jpg",
+      "linkFoto": "https://m.media-amazon.com/images/M/MV5BZGRkOGMxYTUtZTBhYS00NzI3LWEzMDQtOWRhMmNjNjJjMzM4XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_CR0,0,694,1000_AL_.jpg",
       "dataLancamento": "2016-09-17T03:00:00.000Z",
       "descricao": "A young man is ostracized by his classmates after he bullies a deaf girl to the point where she moves away. Years later, he sets off on a path for redemption.",
       "notaIMDb": 8.2,
       "linkIMDb": "https://www.imdb.com/title/tt5323662/?ref_=nv_sr_srsg_0",
       "genero": "Drama",
       "id": 6
+    },
+    {
+      "titulo": "Eu Quero Comer seu Pâncreas",
+      "linkFoto": "https://m.media-amazon.com/images/M/MV5BYWJiZjViZTgtZmU0OC00NDU1LWFkZWUtYzc5NmY4NDkzNDg4XkEyXkFqcGdeQXVyMjc2Nzg5OTQ@._V1_.jpg",
+      "dataLancamento": "2018-09-01T03:00:00.000Z",
+      "descricao": "A young man begins to fall in love with one of his classmates, who is slowly dying from a fatal pancreatic disease, and helps her live her life to the fullest before she passes on.",
+      "notaIMDb": 7.9,
+      "linkIMDb": "https://www.imdb.com/title/tt7236034/?ref_=tt_sims_tt",
+      "genero": "Drama",
+      "id": 7
+    },
+    {
+      "titulo": "Crianças Lobo",
+      "linkFoto": "https://m.media-amazon.com/images/M/MV5BYzQxNDZhNDUtNDUwOC00NjQyLTg2OWUtZWVlYThjYjYyMTc2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SY999_CR0,0,706,999_AL_.jpg",
+      "dataLancamento": "2012-07-21T03:00:00.000Z",
+      "descricao": "After her werewolf lover unexpectedly dies in an accident while hunting for food for their children, a young woman must find ways to raise the werewolf son and daughter that she had with him while keeping their trait hidden from society.",
+      "notaIMDb": 8.1,
+      "linkIMDb": "https://www.imdb.com/title/tt2140203/?ref_=tt_sims_tt",
+      "genero": "Drama",
+      "id": 8
+    },
+    {
+      "titulo": "Saga of Tanya the Evil Movie",
+      "linkFoto": "https://m.media-amazon.com/images/M/MV5BMWI5ZDBmZDYtNTcwYy00N2Y5LWIxNDUtZThjMDI3MWIyZTRhXkEyXkFqcGdeQXVyNzEyMDQ1MDA@._V1_.jpg",
+      "dataLancamento": "2019-02-08T02:00:00.000Z",
+      "descricao": "Tanya Degurechaff continues her misadventures, avoiding death and being sent to hell, while battling the forces of the Republic Army.",
+      "notaIMDb": 7.6,
+      "linkIMDb": "https://www.imdb.com/title/tt9507276/?ref_=tt_sims_tt",
+      "genero": "Ação",
+      "id": 9
+    },
+    {
+      "titulo": "Gekijouban Psycho-Pass",
+      "linkFoto": "https://m.media-amazon.com/images/M/MV5BNTA2NDZjMWMtYWZlOC00MDAzLTliNmQtYmI5YzhlOTQ0ODNhXkEyXkFqcGdeQXVyNjQ5MTIxNjc@._V1_SY1000_CR0,0,707,1000_AL_.jpg",
+      "dataLancamento": "2015-01-09T02:00:00.000Z",
+      "descricao": "In this sequel to Psycho-Pass TV show, Inspector Tsunemori is sent to a neighboring war-torn nation, where the Sibyl System is being introduced as an experiment, to find Shinya Kogami, her former enforcer who went rogue three years ago.",
+      "notaIMDb": 7.2,
+      "linkIMDb": "https://www.imdb.com/title/tt4219130/?ref_=tt_sims_tt",
+      "genero": "Ação",
+      "id": 10
+    },
+    {
+      "titulo": "Cinco Centímetros por Segundo",
+      "linkFoto": "https://m.media-amazon.com/images/M/MV5BODJhZDU1MDYtMDQ0NS00N2JmLWI2ZDAtMGNmN2RmNWJhNzQ5L2ltYWdlXkEyXkFqcGdeQXVyNjY1OTY4MTk@._V1_SX707_CR0,0,707,999_AL_.jpg",
+      "dataLancamento": "2007-03-03T03:00:00.000Z",
+      "descricao": "Told in three interconnected segments, we follow a young man named Takaki through his life as cruel winters, cold technology, and finally, adult obligations and responsibility converge to test the delicate petals of love.",
+      "notaIMDb": 7.6,
+      "linkIMDb": "https://www.imdb.com/title/tt0983213/?ref_=nv_sr_srsg_0",
+      "genero": "Drama",
+      "id": 11
     }
   ]
 }
