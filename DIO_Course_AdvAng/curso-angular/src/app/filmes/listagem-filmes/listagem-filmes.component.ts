@@ -3,6 +3,7 @@ import { FormGroup, FormBuilder } from '@angular/forms';
 
 import { FilmesService } from 'src/app/core/filmes.service';
 import { Filme } from 'src/app/shared/models/filme';
+import { ConfigParams } from 'src/app/shared/models/config-params';
 
 @Component({
   selector: 'dio-listagem-filmes',
@@ -10,11 +11,11 @@ import { Filme } from 'src/app/shared/models/filme';
   styleUrls: ['./listagem-filmes.component.scss']
 })
 export class ListagemFilmesComponent implements OnInit {
-
-  readonly qtddPagina = 4;
-  pagina = 0;
-  texto: string;
-  genero: string;
+  
+  config: ConfigParams = {
+    pagina: 0,
+    limite: 4,
+  };
   filmes: Filme[] = [];
   filtrosListagem: FormGroup;
   generos: Array<String>;
@@ -28,11 +29,11 @@ export class ListagemFilmesComponent implements OnInit {
     });
 
     this.filtrosListagem.get('texto').valueChanges.subscribe((val: string) => {
-      this.texto = val;
+      this.config.pesquisa = val;
       this.resetarConsulta();
     });
     this.filtrosListagem.get('genero').valueChanges.subscribe((val: string) => {
-      this.genero = val;
+      this.config.campo = {tipo: 'genero', valor: val};
       this.resetarConsulta();  
     });
 
@@ -45,14 +46,14 @@ export class ListagemFilmesComponent implements OnInit {
   }
 
   private listarFilmes(): void {
-    this.pagina++;
-    this.filmesService.listar(this.pagina, this.qtddPagina, this.texto, this.genero).subscribe(
+    this.config.pagina++;
+    this.filmesService.listar(this.config).subscribe(
       (filmes: Filme[]) => this.filmes.push(...filmes)
     );
   }
 
   private resetarConsulta(): void {
-    this.pagina = 0;
+    this.config.pagina = 0;
     this.filmes = [];
     this.listarFilmes();
   }
